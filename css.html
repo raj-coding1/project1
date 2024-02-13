@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            height: 600px;
+            width: 80%;
+            margin: auto;
+            /* border: 1px solid black; */
+            display: flex;
+            flex-direction: row;
+        }
+        .main1 ,.main2{
+            height: 90%;
+            width: 50%;
+            /* justify-content: center;
+            align-content: center; */
+            /* border: 1px solid black; */
+margin: auto;;
+        }
+        .main1{
+            display: flex;
+            flex-direction: column;
+            /* padding: 15px;
+            border: 1px solid black; */
+            
+        }
+        .w ,.x ,.y ,.z{
+            height: 100px;
+            width: 290px;
+            /* border: 1px solid black; */
+        }
+        img{
+            height: 100%;
+            width: 100%;
+        }
+        .w{
+            font-family: Manrope;
+            font-size: 36px;
+            line-height: 120px;
+            font-weight: 700;
+            height: 80px;
+        }
+        .x{
+            font-family: Manrope;
+            font-size: 72px;
+            line-height: 5px;
+            font-weight: 800;
+            height: 80px;
+            color: rgb(25,147,247);
+            /* padding: 10px; */
+          
+        }
+        .y{
+            font-family: Manrope;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 75px;
+            color: #1892f7;
+            height: 90px;
+        }
+        .m{
+            font-family: Manrope;
+            font-size: 18px;
+            line-height: 20px;
+            color: #2c2c2c;
+        }
+        button{
+            background-color: rgb(0,147,247);
+            color: white;
+            width: 170px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 0px;
+
+        }
+        .main2>video{
+            height: 100%;
+            width: 100%;
+        }
+        .second{
+            height: 600px;
+            width: 100%;
+            display: flex;
+            border: 1px solid black;
+            background-color: rgb(0,0,0);
+        }
+        #container2{
+            display: flex;
+            height: 80%;
+            margin: auto;
+            width: 90%;
+           
+            flex-direction: column;
+            /* border: 1px solid white; */
+        }
+        #container2>div{
+            height: 40%;
+            width: 100%;
+            /* border: 1px solid white; */
+            
+        }
+        .s1{
+            font-family: manrope, sans-serif;;
+            font-size: 90px;
+            font-weight: 500;
+            line-height: 101px;
+            color: rgb(69,146,192);
+            text-align: center;
+            margin: auto;
+            /* margin-bottom: 150px; */
+        }
+        .s2{
+            font-family: Manrope;;
+            font-size: 60px;
+            font-weight: 500;
+            line-height: 60px;
+            color: #ffffff;
+            text-align: center;
+        }
+        .sc2{
+            height: 60%;
+        }
+        .main{
+            height: 40px;
+            width: 80%;
+            /* border: 1px solid black; */
+            display: flex;
+            flex-direction: row;
+            margin: auto;
+            /* align-items: center; */
+            justify-content: center;
+        }
+        .main>div{
+/* border: 1px solid black; */
+/* padding: 20px; */
+height: 100%;
+margin: auto;
+width: 110px;
+font-style: manrope;
+            font-size: 800;
+            font-weight: bold;
+/* flex-grow: 2; */
+
+        }
+        .logo{
+            flex-grow: 1;
+        }
+/* **************
+        THIRD WEB PAGE OF ONE CARD
+        *************************************** */
+        #container3{
+            height: 700px;
+            width: 80%;
+            margin: auto;
+            /* border: 1px solid black; */
+            display: flex;
+            flex-direction: row;
+        }
+        #container3>div{
+            height: 90%;
+            width: 400%;
+            /* border: 1px solid black; */
+            margin: auto;
+        }
+        .sc31>video{
+            height: 90%;
+            width: 100%;
+        }
+        .sc32{
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            width: 60%;
+        }
+      .ssc331{
+        height: 20%;
+        width: 20%;
+        /* border: 1px solid black; */
+        
+      }
+      .ssc31>img{
+        height: 100%;
+        width: 100%;
+      }
+      .ssc32{
+        height: 80%;
+        width: 80%;
+        /* border: 1px solid black; */
+      }
+      .ssc32>.p31{
+        font-family: Manrope;
+        font-size: 74px;
+        font-weight: 800;
+        line-height: 88px;
+        color: #000000;
+        margin: 0;
+        padding: 0;
+        text-align: end;
+      }
+      .ssc32>.p32{
+        font-family: Manrope;
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 43px;
+        color: #696969;
+        margin: 0;
+        padding: 0;
+        text-align: end;
+      }
+      /* ***************
+      COMPLETION OF THIRD PAGE
+              STARTING OF FOURTH ::-webkit-progress-value         
+                         ********************* */
+                         #page4{
+                            width: 100%;
+                            height: 700px;
+                            background-color: rgb(242,242,242);
+                            display: flex;
+                         }
+                         #container4{
+                            height: 80%;
+                            width: 80%;
+                            /* border: 1px solid black; */
+                            display: flex;
+                            flex-direction: row;
+                            margin: auto;
+                           
+                         }
+                         .sc41{
+                            height: 100%;
+                            width: 45%;
+                            /* border: 1px solid black; */
+                            /* margin-top: 10%; */
+                            /* margin: auto; */
+
+                         }
+                         .sc41>img{
+                            height: 10%;
+                            width: 20%;
+                         }
+                         .p41{
+                            font-family: Manrope;
+        font-size: 80px;
+        font-weight: 800;
+        line-height: 112px;
+        color: #000000;
+        margin: 0;
+        padding: 0;
+       
+                         }
+                         .p42{
+                            font-family: Manrope;
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 43px;
+        color: #696969;
+        margin: 0;
+        padding: 0;
+        /* margin-top: 20%; */
+                         }
+
+                         .sc42{
+                            height: 100%;
+                            width: 55%;
+                            /* border: 1px solid black; */
+                            /* margin-top: 10%; */
+                            
+                         }
+                         .sc42>video{
+                            /* margin-right: 10%; */
+                            height: 90%;
+                            width: 100%;
+                            margin: auto;
+                         }
+                         /* <!-- *********************
+                 END OF FOURTH page
+                        *********************
+                        STARTING OF FIVTH page
+                        **********************************
+                         --> */
+                         #container3{
+            height: 700px;
+            width: 80%;
+            margin: auto;
+            /* border: 1px solid black; */
+            display: flex;
+            flex-direction: row;
+        }
+        #container3>div{
+            height: 90%;
+            width: 400%;
+            /* border: 1px solid black; */
+            margin: auto;
+        }
+        .sc31>video{
+            height: 90%;
+            width: 100%;
+        }
+        .sc32{
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            width: 60%;
+        }
+      .ssc331{
+        height: 20%;
+        width: 20%;
+        /* border: 1px solid black; */
+        
+      }
+      .ssc31>img{
+        height: 100%;
+        width: 100%;
+      }
+      .ssc32{
+        height: 80%;
+        width: 80%;
+        /* border: 1px solid black; */
+      }
+      .ssc32>.p31{
+        font-family: Manrope;
+        font-size: 74px;
+        font-weight: 800;
+        line-height: 88px;
+        color: #000000;
+        margin: 0;
+        padding: 0;
+        text-align: end;
+      }
+      .ssc32>.p32{
+        font-family: Manrope;
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 43px;
+        color: #696969;
+        margin: 0;
+        padding: 0;
+        text-align: end;
+      }
+      <!-- ********************
+                         END OF FIFTH page
+                             **********************
+                             STARTING OF SIXTH page
+                              /* --> */
+                              #page4{
+                            width: 100%;
+                            height: 700px;
+                            background-color: rgb(242,242,242);
+                            display: flex;
+                         }
+                         #container4{
+                            height: 80%;
+                            width: 80%;
+                            /* border: 1px solid black; */
+                            display: flex;
+                            flex-direction: row;
+                            margin: auto;
+                           
+                         }
+                         .sc41{
+                            height: 100%;
+                            width: 45%;
+                            /* border: 1px solid black; */
+                            /* margin-top: 10%; */
+                            /* margin: auto; */
+
+                         }
+                         .sc41>img{
+                            height: 10%;
+                            width: 20%;
+                            margin-top: 10%;
+                         }
+                         .p41{
+                            font-family: Manrope;
+        font-size: 70px;
+        font-weight: 800;
+        line-height: 80px;
+        color: #000000;
+        margin: 0;
+        padding: 0;
+       
+                         }
+                         .p42{
+                            font-family: Manrope;
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 43px;
+        color: #696969;
+        margin: 0;
+        padding: 0;
+        /* margin-top: 20%; */
+                         }
+
+                         .sc42{
+                            height: 100%;
+                            width: 55%;
+                            /* border: 1px solid black; */
+                            /* margin-top: 10%; */
+                            
+                         }
+                         .sc42>.eight{
+                            /* margin-right: 10%; */
+                            height: 90%;
+                            width: 100%;
+                            margin: auto;
+                         }   
+                         /* ********************
+                                         SEVENTH PAGE  
+                                                   ******************              */
+                                                   #container3{
+            height: 700px;
+            width: 80%;
+            margin: auto;
+            /* border: 1px solid black; */
+            display: flex;
+            flex-direction: row;
+        }
+        #container3>div{
+            height: 90%;
+            width: 80%;
+            /* border: 1px solid black; */
+            margin: auto;
+        }
+        .sc31>video{
+            height: 90%;
+            width: 100%;
+        }
+        .sc32{
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            width: 60%;
+        }
+      .ssc331{
+        height: 20%;
+        width: 20%;
+        /* border: 1px solid black; */
+        
+      }
+      .ssc31>img{
+        height: 100%;
+        width: 100%;
+        margin-top: 23%;
+      }
+      .ssc32{
+        height: 90%;
+        width: 100%;
+        margin-top: 5%;
+        /* border: 1px solid black; */
+      }
+      .ssc32>.p31{
+        font-family: Manrope;
+        font-size: 74px;
+        font-weight: 800;
+        line-height: 88px;
+        color: #000000;
+        margin: 0;
+        padding: 0;
+        text-align: end;
+      }
+      .ssc32>.p32{
+        font-family: Manrope;
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 43px;
+        color: #696969;
+        margin: 0;
+        padding: 0;
+        text-align: end;
+      }  
+      /* **********************
+                                  END OF EIGHTH PAGE     
+                                                           
+                                                     ********************* */
+      
+      .srajkumar{
+        display: flex;
+        
+        /* height: 700PX; */
+        width: 80%;
+        margin: auto;
+        /* border: 1px solid black;; */
+      }
+      .srajkumar>div{
+        height: 60%;
+        width: 30%;
+        margin: auto;
+        /* border: 1px solid black;; */
+      }
+   .raj{
+    text-align: center;
+    font-size: 80px;
+
+    font-family: Manrope;
+
+    font-weight: 800;
+    line-height: 105px;
+    margin: 0;
+    padding: 0;
+   }
+   .srajkumar img{
+height: 60%;
+width: 100%;
+   }
+   .srajkumar .parag4{
+    font-size: 14px;
+    font-family: manrope;
+
+    font-weight: 400;
+    line-height: 35px;
+    color: #696969;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+   }
+   .srajkumar .parag5{
+    font-size: 17px;
+    font-family: manrope;
+    font-weight: 600;
+    line-height: 20px;
+    
+    color: #646464;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+   }
+.raj1{
+    font-size: 17px;
+    font-family: manrope;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left; 
+    margin-left: 13%; 
+}
+/* ******************************
+*******************************
+**************************** */
+#container10{
+    /* height: 70000px;
+    width: 100%; */
+    /* display: flex; */
+    /* border: 1px solid black; */
+   background-color: rgb(242,242,242);
+}
+#container10>p{
+font-family: Manrope;
+font-size: 80px;
+font-weight: 800;
+line-height: 120px;
+/* margin: 1;
+padding: 1; */
+}
+#container10>.paragraph{
+    font-family: Manrope;
+
+font-size: 32px;
+font-weight: 500;
+line-height: 43px;
+color: #696969;
+
+}
+#container10>img{
+height: 100px;
+width: 340px;
+
+}
+#container11{
+    background-color: rgb(12,22,27);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.social{
+    /* height: 100px; */
+    /* width: 199%; */
+    /* text-align: center; */
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;                  /* //to use justify-content: there should be no width*/
+    /* border: 1px solid white; */
+    background-color: rgb(12,22,27);
+    /* align-items: center; */
+}
+.social>div{
+   padding-right: 5px;
+   padding-left: 5px;
+    /* margin: auto; */
+    /* border: 1px solid white; */
+}
+
+/* #container11 img{
+    height: 50px;
+    width: 100px;
+    
+} */
+.social img{
+    height: 35px;
+    width: 35px;
+}
+.foot1{
+    height: 300px;
+    border: 1px solid white;
+    width: 100%;
+    display: flex;
+    margin: auto;
+
+
+}
+.foot1>div{
+    height: 90%;
+    border: 1px solid white;
+    display: flex;
+    margin: auto;
+    
+
+}
+.sf1{
+    width: 45%;
+}
+.sf2{
+    width: 25%;
+}
+.fi1{
+    height: 80px;
+    width: 80px;
+}
+.fi2{
+    height: 60px;
+    width: 40%;
+}
+.fp1{
+font-family: Manrope;
+font-size: 44px;
+font-weight: 800;
+line-height: 59px;
+color: #0093f7;
+}
+.fp2{
+    font-family: Manrope;;
+font-size: 25px;
+font-weight: 400;
+line-height: 33px;
+color: #ffffff;
+}
+
+    </style>
+</head>
+<body>
+    
+</body>
+</html>
